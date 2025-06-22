@@ -1,0 +1,20 @@
+<!-- index.html 본문 일부 -->
+<body>
+  <h1>📚 학급 독서기록장</h1>
+  
+  <!-- 책 등록 폼 -->
+  <div id="book-form">
+    <input id="student-id" placeholder="학번" />
+    <input id="student-name" placeholder="이름" />
+    <input id="book-title" placeholder="책 제목" />
+    <input id="book-author" placeholder="저자" />
+    <input type="date" id="read-date" />
+    <textarea id="review" placeholder="감상평"></textarea>
+    <button onclick="addBook()">기록 추가</button>
+  </div>
+  
+  <!-- 책 목록 출력 -->
+  <ul id="book-list"></ul>
+
+  <script src="app.js"></script>
+</body>
